@@ -5,8 +5,8 @@
      Keep this file under ~150 lines — Claude loads it every session.
      See the guide at https://hsantanna88.github.io/clo-author/ for full documentation. -->
 
-**Project:** [YOUR PROJECT NAME]
-**Institution:** [YOUR INSTITUTION]
+**Project:** Local Wealth and Taxation
+**Institution:** EPGE
 **Branch:** main
 
 ---
@@ -25,7 +25,7 @@
 ## Folder Structure
 
 ```
-[YOUR-PROJECT]/
+local_wealth_and_taxation/
 ├── CLAUDE.MD                    # This file
 ├── .claude/                     # Rules, skills, agents, hooks
 ├── Bibliography_base.bib        # Centralized bibliography
@@ -124,9 +124,7 @@ See `scoring-protocol.md` for weighted aggregation formula.
 
 ## Beamer Custom Environments (Talks)
 
-| Environment       | Effect        | Use Case       |
-|-------------------|---------------|----------------|
-| `[your-env]`      | [Description] | [When to use]  |
+<!-- Add custom Beamer environments here as you develop talks -->
 
 ---
 
@@ -134,7 +132,9 @@ See `scoring-protocol.md` for weighted aggregation formula.
 
 | Component | File | Status | Description |
 |-----------|------|--------|-------------|
-| Paper | `Paper/main.tex` | [draft/submitted/R&R] | [Brief description] |
-| Data | `scripts/R/` | [complete/in-progress] | [Analysis description] |
-| Replication | `Replication/` | [not started/ready] | [Deposit status] |
-| Job Market Talk | `Talks/job_market_talk.tex` | -- | [Status] |
+| Literature | `quality_reports/lit_review_annotated.md` | Discovery (86/100) | 48 papers, Editor PASS. Gaps: tax competition, capitalization lit |
+| Data | `scripts/` | not started | TSE + FINBRA identified as primary sources |
+| Strategy | -- | not started | Close-election RDD planned, awaiting formalization |
+| Paper | `Paper/main.tex` | not started | Local wealth and taxation |
+| Replication | `Replication/` | not started | -- |
+| Talks | `Talks/` | -- | -- |
