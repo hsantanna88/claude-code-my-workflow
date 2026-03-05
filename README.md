@@ -1,6 +1,6 @@
 # The Clo-Author: Your Econ AI Research Assistant for Claude Code
 
-[![Version](https://img.shields.io/badge/version-2.0.1-00f0ff?style=flat-square)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.0.1-b44dff?style=flat-square)](CHANGELOG.md)
 
 > **Work in progress.** This is an experiment born out of my discovery of [Pedro's tool](https://github.com/pedrohcgs/claude-code-my-workflow). This repo is a packaging of my own interpretation of that, tailored to pure research. It is evolving as I learn, and I share it in case others find it useful and would like to build upon it. Expect rough edges.
 
