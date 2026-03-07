@@ -40,7 +40,7 @@ If CLAUDE.md exceeds ~150 lines, Claude starts ignoring rules silently. Put deta
 
 # Rules --- Auto-Loading Domain Knowledge
 
-Rules are markdown files in `.claude/rules/` that Claude loads automatically. Consolidated into **10 focused files** for clarity.
+Rules are markdown files in `.claude/rules/` that Claude loads automatically. Consolidated into **11 focused files** for clarity.
 
 | Rule | Purpose |
 |------|---------|
@@ -51,6 +51,7 @@ Rules are markdown files in `.claude/rules/` that Claude loads automatically. Co
 | `content-standards.md` | Table generation, PDF processing, exploration workflow |
 | `figures.md` | No embedded titles, serif fonts, publication-quality axis labels, full year axes |
 | `tables.md` | No embedded titles, booktabs, threeparttable, notes in paper not R output |
+| `working-paper-format.md` | Economics working paper layout: 12pt, 1in margins, titling fonts, abstract format |
 | `revision.md` | R&R cycle comment classification and routing |
 | `meta-governance.md` | Template vs working project distinction |
 | `domain-profile.md` | Field-specific calibration (user-customized) |

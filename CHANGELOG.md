@@ -4,6 +4,16 @@ All notable changes to the Clo-Author are documented here.
 
 ---
 
+## [2.0.3] — 2026-03-07
+
+### Working Paper Format Rule
+
+- **`working-paper-format.md`** — new always-on rule: enforces standard economics working paper format (12pt article, 1in margins, double-spaced body, single-spaced abstract, `titling` package for proper title/author font sizes, `\quad` author spacing, `booktabs` tables, `threeparttable` notes, `aer` bibliography style)
+- Writer-critic deduction rubric included (e.g., -5 for wrong document class, -3 for `\textbf{}` on title, -5 for missing JEL codes)
+- Ensures title page fits on one page: title + authors + abstract + JEL + keywords
+
+---
+
 ## [2.0.2] — 2026-03-07
 
 ### Figures & Tables Rules
